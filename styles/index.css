@@ -41,34 +41,14 @@ nav h1 {
   color: #fff;
   text-transform: uppercase;
   padding: 5px 10px;
-  cursor: pointer;
+  background: linear-gradient(to right, #30e8bf, #ff8235);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  display: inline;
 }
-nav h1:hover {
-  animation: awesome 0.5s ease-in-out;
-}
 
-/* Credits to animate.css for awesome swing animation*/
-@keyframes awesome {
-  20% {
-    transform: rotate3d(0, 0, 1, 15deg);
-  }
-
-  40% {
-    transform: rotate3d(0, 0, 1, -10deg);
-  }
-
-  60% {
-    transform: rotate3d(0, 0, 1, 5deg);
-  }
-
-  80% {
-    transform: rotate3d(0, 0, 1, -5deg);
-  }
-
-  to {
-    transform: rotate3d(0, 0, 1, 0deg);
-  }
-}
 .nav-links li {
   list-style: none;
   display: inline-block;
